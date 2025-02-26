@@ -37,7 +37,7 @@ def play(game_content):
     return (user_correct, user_incorrect)
 
 def main():
-    parser = argparse.ArgumentParser(prog="Learn Letters", description="Practice typing, reading, and matching letters & symbols.", usage="python (or python3) -l -L -n -s")
+    parser = argparse.ArgumentParser(prog="Learn Letters", description="Practice typing, reading, and matching letters & symbols.", usage="python (or python3) learn_letters.py -l -L -n -s")
     parser.add_argument("-l","--lower-letters",action="store_true", help="Includes 'lowercase letters' when loading the game.")
     parser.add_argument("-L","--upper-letters",action="store_true", help="Includes 'uppercase letters' when loading the game.")
     parser.add_argument("-n","--numbers",action="store_true", help="Includes 'numbers' when loading the game.")
