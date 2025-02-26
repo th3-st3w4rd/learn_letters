@@ -9,28 +9,28 @@ usage: python (or python3) learn_letters.py -l -L -n -s
 
 Practice typing, reading, and matching letters & symbols.
 
-options:
-  -h, --help           show this help message and exit
-  -l, --lower-letters  Includes 'lowercase letters' when loading the game.
-  -L, --upper-letters  Includes 'uppercase letters' when loading the game.
-  -n, --numbers        Includes 'numbers' when loading the game.
-  -s, --symbols        Includes 'symbols' when loading the game.
+options:  
+  -h, --help           show this help message and exit  
+  -l, --lower-letters  Includes 'lowercase letters' when loading the game.  
+  -L, --upper-letters  Includes 'uppercase letters' when loading the game.  
+  -n, --numbers        Includes 'numbers' when loading the game.  
+  -s, --symbols        Includes 'symbols' when loading the game.  
 
 During the game, enter -- to quit and end the game.
 
 ### Example:
 #### To practice learning uppercase letters and numbers on a Windows PC:
 
-python learn_letters.py -Ln
-python learn_letters.py --upper-letters --numbers
-python learn_letters.py -n --upper-letters
+python learn_letters.py -Ln  
+python learn_letters.py --upper-letters --numbers  
+python learn_letters.py -n --upper-letters  
 
 \* Any combination of the above options/switches will work the same.
 #### To practice lowercase, symbols, and uppercase letters on a Linux PC:
 
-python3 learn_letters.py -lsL
-python3 learn_letters.py --lower-letters --symbols --upper-letters
-python3 learn_letters.py -Ls --lower-letters
+python3 learn_letters.py -lsL  
+python3 learn_letters.py --lower-letters --symbols --upper-letters  
+python3 learn_letters.py -Ls --lower-letters  
 
 \* Any combination of the above options/switches will work the same.
 ## Future Improvements
