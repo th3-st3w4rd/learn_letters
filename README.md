@@ -5,7 +5,8 @@ numbers, and get them used to a keyboard. This game is NOT meant for kids to pla
 The game also keeps track of how many correct and incorrect answers were given. Maybe parents
 could relate prizes to how many attempts the child tried.
 ## Gameplay, Commands, & Usage
-usage: python (or python3) learn_letters.py -l -L -n -s
+usage:  
+python (or python3) learn_letters.py -l -L -n -s
 
 Practice typing, reading, and matching letters & symbols.
 
@@ -18,7 +19,7 @@ options:
 
 During the game, enter -- to quit and end the game.
 
-### Example:
+### Examples:
 #### To practice learning uppercase letters and numbers on a Windows PC:
 
 python learn_letters.py -Ln  
@@ -34,10 +35,11 @@ python3 learn_letters.py -Ls --lower-letters
 
 \* Any combination of the above options/switches will work the same.
 ## Future Improvements
-- [x] Use argparse to setup game settings.
 - [ ] Create more congratualtions statements.
 - [ ] Create more better luck next time statements.
 - [ ] Create a better points system, rewarding trying over performance.
 - [ ] Create better CLI layout (Mock GUI)
-- [ ] Put more life into GearBolt.
+- [ ] Put more life into G34r-B0lt.
 - [ ] Create levels of difficulty, to include whole words and sentences.
+- [x] Use argparse to setup game settings.
+- [x] Create narrator \(G43r-B0lt\).
